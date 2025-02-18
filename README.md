@@ -50,11 +50,11 @@ Using Maven
 
 Add this to pom.xml dependencies:
 
-<dependency><br>
-    <groupId>org.scilab.forge</groupId><br>
-    <artifactId>jlatexmath</artifactId><br>
-    <version>1.0.7</version><br>
-</dependency><br>
+/<dependency>/
+    /<groupId>org.scilab.forge</groupId>/<br>
+    /<artifactId>jlatexmath</artifactId>/<br>
+    /<version>1.0.7</version>/<br>
+/</dependency>/
 
 Then run:
 
