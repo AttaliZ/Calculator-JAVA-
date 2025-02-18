@@ -50,7 +50,7 @@ Using Maven
 
 Add this to pom.xml dependencies:
 
-/<dependency>/
+< dependency >
     /<groupId>org.scilab.forge</groupId>/<br>
     /<artifactId>jlatexmath</artifactId>/<br>
     /<version>1.0.7</version>/<br>
