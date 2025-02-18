@@ -2,46 +2,46 @@ Engineering Calculator
 
 A Calculator built using Java Swing, designed to perform basic and advanced mathematical calculations. It includes support for various functions such as exponentiation, trigonometry, logarithms, and more.
 
-Features
+-Features-
 
-Basic Arithmetic: Addition, subtraction, multiplication, and division
+-Basic Arithmetic: Addition, subtraction, multiplication, and division
 
-Scientific Functions:
+-Scientific Functions:
 
-Trigonometric functions (sin, cos, tan, inverse functions)
+-Trigonometric functions (sin, cos, tan, inverse functions)
 
-Logarithmic functions (log, ln)
+-Logarithmic functions (log, ln)
 
-Exponential functions (x², x³, x⁻¹)
+-Exponential functions (x², x³, x⁻¹)
 
-Random number generation (Rnd, Ran#)
+-Random number generation (Rnd, Ran#)
 
-Answer recall (Ans)
+-Answer recall (Ans)
 
-Equation Input & Evaluation
+-Equation Input & Evaluation
 
-Keyboard & Button Click Support
+-Keyboard & Button Click Support
 
-Custom UI with Dark Theme
+-Custom UI with Dark Theme
 
 (Optional) LaTeX Display for mathematical expressions using JLaTeXMath (requires additional setup)
 
-Installation
+*Installation*
 
 1. Prerequisites
 
-Ensure you have Java (JDK 8 or later) installed.
+-Ensure you have Java (JDK 8 or later) installed.
 
 2. Clone the Repository
 
-git clone https://github.com/YOUR_USERNAME/EngineeringCalculator.git
+git clone https://github.com/YOUR_USERNAME/EngineeringCalculator.git<br>
 cd EngineeringCalculator
 
 3. Compile & Run
 
-If you do not need LaTeX support, you can compile directly:
+-If you do not need LaTeX support, you can compile directly:
 
-javac EngineeringCalculator.java
+javac EngineeringCalculator.java<br>
 java EngineeringCalculator
 
 If you want LaTeX support, install JLaTeXMath:
@@ -50,11 +50,11 @@ Using Maven
 
 Add this to pom.xml dependencies:
 
-<dependency>
-    <groupId>org.scilab.forge</groupId>
-    <artifactId>jlatexmath</artifactId>
-    <version>1.0.7</version>
-</dependency>
+<dependency><br>
+    <groupId>org.scilab.forge</groupId><br>
+    <artifactId>jlatexmath</artifactId><br>
+    <version>1.0.7</version><br>
+</dependency><br>
 
 Then run:
 
@@ -68,7 +68,7 @@ Place it in the project directory
 
 Compile and run:
 
-javac -cp .:jlatexmath-1.0.7.jar EngineeringCalculator.java
+javac -cp .:jlatexmath-1.0.7.jar EngineeringCalculator.java<br>
 java -cp .:jlatexmath-1.0.7.jar EngineeringCalculator
 
 Usage
